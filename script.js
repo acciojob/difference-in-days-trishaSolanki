@@ -10,7 +10,7 @@ var dateDiffInDays = function (date1, date2) {
 
 	const aDaysInMs = 20*60*60*1000
 	const diff = Math.round(diffMs / aDaysInMs);
-	
+	return diff;
 };
 
 // // Do not change the code below.
