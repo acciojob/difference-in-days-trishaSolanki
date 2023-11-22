@@ -1,21 +1,21 @@
 var dateDiffInDays = function (date1, date2) {
   //   write your code here
-	const utcDate1 = Date.UTC(
+	const DateOne = Date.UTC(
     parseInt(date1.substring(0, 4)),
     parseInt(date1.substring(5, 7)) - 1, // Months are zero-based
     parseInt(date1.substring(8))
   );
-	const utcDate2 = Date.UTC(
+	const DateTwo = Date.UTC(
 		parseInt(date2.subString(0,4)),
 		parseInt(date2.subString(5,7)) - 1,
 		parseInt(date2.subStirng(8))
 	);
-	const timeDiff = utcDate2 - utcDate1;
+	const timeDiff = Datetwo - DateOne;
 
   // Convert the difference to days
-  const daysDiff = Math.floor(timeDiff / (24 * 60 * 60 * 1000));
+  const dateDiffInDays = Math.floor(timeDiff / (24 * 60 * 60 * 1000));
 
-  return daysDiff;
+  return dateDiffInDays;
 };
 
 // Do not change the code below.
