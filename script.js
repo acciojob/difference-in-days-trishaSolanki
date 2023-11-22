@@ -1,7 +1,7 @@
 var dateDiffInDays = function (date1, date2) {
   //   write your code here
-	const dateOne = new Date("2022-03-01");
-	const DateTwo = new Date();
+	const dateOne = new Date(date1);
+	const DateTwo = new Date(date2);
 
 	const firstDateInMs = firstDate.getTime();
 	const secondDateInMs = secondDate.getTime();
